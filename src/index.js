@@ -1,4 +1,9 @@
-import './css/style.css';
-import moduleFunc from './module1';
- 
-moduleFunc('Иван');
+import './scss/base.scss'
+import mobMenu from './mobMenu';
+import tabChange from './tabs';
+
+
+window.onload = function() {
+    tabChange();
+    mobMenu();
+ };
